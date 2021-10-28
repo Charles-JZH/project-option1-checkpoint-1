@@ -1,15 +1,14 @@
 # project-option1-checkpoint
+The code of driver written in vue.js is in the driver folder. In my implementation, only the driver has the dockerfile, so in the dockerfle folder there is only one Dockerfile for driver.  
 
-All driver codes are in the driver folder. In my implementation, only the driver has the dockerfile, so in the dockerfle folder there is only one Dockerfile for driver.  
-
-All docker images dockerhub addresses:
+## All docker images dockerhub addresses:  
 https://hub.docker.com/repository/docker/charlesjiang1997/driver  
 https://hub.docker.com/repository/docker/charlesjiang1997/hadoop  
 https://hub.docker.com/repository/docker/charlesjiang1997/jupyter  
 https://hub.docker.com/repository/docker/charlesjiang1997/sonarqube  
 https://hub.docker.com/repository/docker/charlesjiang1997/spark  
 
-The steps to run all Docker images on Kubernetes:
+## The steps to run all Docker images on Kubernetes:
 1. Push all usable Docker images to my personal dockerhub.  
 2. Write deployment configuration files (namely xxx-deployment.yaml) for all Docker images, using their corresponding dockerhub addresses.  
 3. Write service configuration files (namely xxx-service.yaml) for all Docker images.  
