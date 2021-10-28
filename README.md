@@ -1,5 +1,7 @@
 # project-option1-checkpoint
 The code of driver written in vue.js is in the driver folder. In my implementation, only the driver has the dockerfile, so in the dockerfle folder there is only one Dockerfile for driver.  
+The display of driver:
+![image](https://github.com/Charles-JZH/project-option1-checkpoint/blob/main/driver/display-image.png)
 
 ## All docker images dockerhub addresses:  
 https://hub.docker.com/repository/docker/charlesjiang1997/driver  
